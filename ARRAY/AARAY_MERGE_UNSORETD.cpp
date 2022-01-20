@@ -48,7 +48,7 @@ int main()
 		cin >> array2[i];
 	}
 
-	display(array1, size1);
+	display(array1, size1); //this is final output
 	display(array2, size2);
 	merge(array1, array2, array3, size1, size2);
 	display(array3, size3);
