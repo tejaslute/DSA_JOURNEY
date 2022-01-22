@@ -32,9 +32,10 @@ int main()
 	myArray = new int[size];
 	for (int i = 0; i < size; i++)
 	{
-		cout << "\n myArray[" << i << "] = ";
+		cout << "\n myArray[" << i << "]  =  ";
 		cin >> myArray[i];
 	}
+	cout<<"/n myArray["size<<"] = ";
 	display(myArray, size);
 	left_shift(myArray, size);
 	display(myArray, size);
