@@ -13,6 +13,7 @@
     	    {
     	        sum=sum+num;
     	        num=0;
+
     	    }
     	}
     	return sum+num;
