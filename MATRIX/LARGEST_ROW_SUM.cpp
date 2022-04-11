@@ -9,7 +9,7 @@
 #include<vector>
 using namespace std;
 
-
+ 
 void  row_sum_largest(int a[][3], int row, int col)
 {
     int sum = 0;
