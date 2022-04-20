@@ -20,7 +20,7 @@ int binary_search(int array[], int size,int element)
     {
         if (array[mid] == element)
         {
-            cout << "/n Element foundde : ";
+            cout << "/n Element found de : ";
             return 1;
         }
 
