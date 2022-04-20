@@ -15,7 +15,7 @@ int binary_search(int array[], int size,int element)
 {
     int low = 0;
     int high = size - 1;
-    int mid = (low + high) / 2;
+    int mid = (low + high)  / 2;
     while (low <= high)
     {
         if (array[mid] == element)
