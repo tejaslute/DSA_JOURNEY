@@ -11,7 +11,7 @@ public:
     {
         this->data = data;
     }
-    void insertHead(Node*& head, int data)  // refrence taken as same memory chnage 
+    void insertHead(Node*& head, int data)  //  refrenc taken as same memory chnage 
         {
         Node* temp = new Node(data);
         temp->add = head;
@@ -20,7 +20,7 @@ public:
 
     void print(Node*& head)
     {
-        Node* temp = head;
+        Node* temp = head; 
         while (temp != NULL)
         {
             cout << temp->data <<" ";
