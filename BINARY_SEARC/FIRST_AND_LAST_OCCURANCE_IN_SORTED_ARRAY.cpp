@@ -1,4 +1,4 @@
-// FIRST_AND_LAST_OCCURANCE_IN_SORTED_ARRAY.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// FIRST_AND p_LAST_OCCURANCE_IN_SORTED_ARRAY.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
