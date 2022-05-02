@@ -19,7 +19,7 @@ int main()
     int number;
     cout << "Enter an number : " << endl;
     cin >> number;
-    cout << "Factorial of " << number << " is : " << factorial(number);
+    cout << "Factorial of  given " << number << " is : " << factorial(number);
     return 0;
 }
 
