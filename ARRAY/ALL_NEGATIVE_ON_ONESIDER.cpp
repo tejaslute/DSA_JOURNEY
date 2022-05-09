@@ -1,4 +1,4 @@
-// ALL_NEGATIVE_ON_ONESIDER.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// ALL_NEGATIVE_ON_ONESIDER.cpp : This file contains the 'main'      function. Program execution begins and ends there.
 //
 
 #include <iostream>
