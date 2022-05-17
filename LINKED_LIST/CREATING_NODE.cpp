@@ -1,4 +1,4 @@
-// CREATING_NODE.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// CREATING_NODE.cpp : This file contains the 'main' function. Program execution begins and ends.
 //
 
 #include <iostream>
