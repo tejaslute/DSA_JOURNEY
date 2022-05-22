@@ -1,7 +1,7 @@
 // LARGEST_ROW_SUM.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-// ROW_WISE_SUM.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// ROW_WISE_SUM.cpp : This file contains the 'main' function. Program execution begins and ends there
 //
 
 

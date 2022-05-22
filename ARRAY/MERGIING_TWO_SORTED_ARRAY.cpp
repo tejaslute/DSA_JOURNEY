@@ -1,4 +1,4 @@
-// MERGIING_TWO_SORTED_ARRAY.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// MERGI ING_TWO_SORTED_ARRAY.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>

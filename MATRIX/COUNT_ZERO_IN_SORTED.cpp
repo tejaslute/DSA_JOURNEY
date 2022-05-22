@@ -7,7 +7,7 @@ int countZeros(vector<vector<int>>matrix)
 	int col = matrix[0].size();
 
 	int count = 0;
-
+ 
 	for (int i = 0; i < row; i++)
 	{
 		for (int j = 0; j < matrix[i].size(); j++)
