@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 void display(int arr[], int size)
 {
 	cout << "\n myArray = ";
