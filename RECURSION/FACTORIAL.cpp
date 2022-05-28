@@ -1,4 +1,4 @@
-// FACTORIAL.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// FACTORIAL.cpp : This fib le contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
