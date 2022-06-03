@@ -1,4 +1,4 @@
-// AARAY _MERGE_UNSORETD.cpp : This file contains the 'main' unction. Program execution begins and ends there.
+// AARA_MERGE_UNSORETD.cpp : This file contains the 'main' unction. Program execution begins and ends there.
 //
 #include<iostream>
 using namespace std;
