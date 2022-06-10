@@ -13,7 +13,7 @@ int main()
 {
 	int i = 5;
 	int* ptr1 = &i;
-	int** ptr2 = &ptr1;   // Pointer to pointer 
+	int** ptr2 = &ptr1;   // Pointer topointer 
 	cout << " ptr1  address : " << ptr1;
 	cout << "\n content of ptr1 : " << *ptr1;
 	cout << "\n ptr2 address : " << ptr2;
