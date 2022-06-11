@@ -16,7 +16,7 @@ void display(int arr[], int size)
 int insert(int arr[], int size)
 {
 	int element, position;
-	cout << "\n Enter an position to insert an element : ";
+	cout << "\n Enter an position to  insert an element : ";
 	cin >> position;
 	cout << "\n Enter an element to insert at postion " << position << " : ";
 	cin >> element;
