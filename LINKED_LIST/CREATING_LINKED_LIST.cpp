@@ -1,4 +1,4 @@
-// CREATING_LINKED_LIST.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// CREATING_LINKED_LIST.cpp : This file contains the 'main' function. Prog ram execution begins and ends there.
 //
 
 #include <iostream>
