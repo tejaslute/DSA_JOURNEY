@@ -92,6 +92,35 @@ void insert_at_given(Node*& head, int position, int d3)
 
 }
 
+void deleteNode(Node*& head, int position)
+{
+  
+    if (position == 1)
+    {
+        Node* temp = head;
+        head = head->next;
+        temp->next=NULL;
+        delete temp;
+       
+    }
+    else
+    {
+          Node* current = head; 
+        Node* prev = NULL;
+      
+         int count = 1;
+        while (count < position)
+        {
+            prev = current;
+            current = current->next;
+            count++;
+        }
+        prev->next = current->next;
+        current->next = NULL;
+        delete current;
+    }
+}
+
 void print1(Node*& head)
 {
     Node* temp = head;
@@ -107,9 +136,9 @@ int main()
 {
     Node* head = new Node(5);
 
-   
+
     char ch = 'Y';
-    while (ch == 'Y' || ch=='y')
+    while (ch == 'Y' || ch == 'y')
     {
         cout << "1.Insert at Head \n2.Insert at any position\n3.Insert at tail\n4.Display ";
         int s;
@@ -140,7 +169,11 @@ int main()
         cout << "\nDo you want to continue Y/N : ";
         cin >> ch;
     }
-  
-    
+    int position1;
+    cin>>position1;
+    deleteNode(head, position1);
+    print1(head);
+
+
     return 0;
 }
