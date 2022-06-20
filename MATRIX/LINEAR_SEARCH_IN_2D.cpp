@@ -28,7 +28,7 @@ int main()
     {
         for (int col = 0; col < 3; col++)
         {
-            cout << "Enter an elements at position : " << row << " & " << col << " ";
+            cout << "Enter an elements  at position : " << row << " & " << col << " ";
             cin >> a[row][col];
         }
     }
