@@ -47,7 +47,12 @@ void delete_CLL(Node*& tail, int d)
         front = front->next;
     }
     back->next = front->next;
-    if (tail == front)
+
+    if (front == back) // single node
+    {
+        tail = NULL;
+    }
+     if (tail == front)// >2 node link list
     {
         tail = back; 
     }
