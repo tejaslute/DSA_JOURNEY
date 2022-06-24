@@ -15,6 +15,9 @@
 //Output : 3
 //Explanation :
 //	Middle of linked list is 3.
+
+
+// APPROACH 1
 int n = 0;
 Node* ptr = head;
 while (ptr != NULL) {
@@ -28,3 +31,18 @@ for (int i = 1; i <= n / 2; i++) {
 
 }
 return p->data;
+
+
+ // APPROACH 2 
+
+ int getMiddle(Node *head)
+    {
+        Node* slow=head;
+        Node* fast=head;
+        while(fast!=NULL && fast->next!=NULL)
+        {
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        return slow->data;
+    }
