@@ -1,6 +1,7 @@
 // AARA_MERGE_UNSORETD.cpp : This file contains the 'main' unction. Program execution begins and ends there.
 //
 #include<iostream>
+#include<map>
 using namespace std;
 void display(int array[], int size)
 {
