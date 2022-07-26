@@ -32,3 +32,24 @@ public:
         return false;
     }
 };
+
+
+// Method-2 Using map (hashing)
+map<Node*, bool>visited;
+
+if (head == NULL)
+{
+    return false;
+}
+
+Node* temp = head;
+while (temp != NULL)
+{
+    if (visited[temp] == true)
+    {
+        return true;
+    }
+    visited[temp] = true;
+    temp = temp->next;
+}
+return false;
