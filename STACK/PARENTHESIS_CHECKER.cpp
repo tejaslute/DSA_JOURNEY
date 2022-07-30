@@ -1,9 +1,8 @@
 //Parenthesis Checker
 //Easy Accuracy : 49.12 % Submissions : 100k + Points : 2
-//Lamp
 //This problem is part of GFG SDE Sheet.Click here to view more.
-//Given an expression string x.Examine whether the pairs and the orders of “{ “,” }”, ”(“, ”)”, ”[“, ”]” are correct in exp.
-//For example, the function should return 'true' for exp = “[()]{} { [()()] ()}” and 'false' for exp = “[(])”.
+//Given an expression string x.Examine whether the pairs and the orders of â€œ{ â€œ,â€ }â€, â€(â€œ, â€)â€, â€[â€œ, â€]â€ are correct in exp.
+//For example, the function should return 'true' for exp = â€œ[()]{} { [()()] ()}â€ and 'false' for exp = â€œ[(])â€.
 //
 //Example 1:
 //
