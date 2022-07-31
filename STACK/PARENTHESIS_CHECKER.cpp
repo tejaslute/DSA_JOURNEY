@@ -1,4 +1,4 @@
-//Parenthesis Checker
+//Parenthesis Chcker
 //Easy Accuracy : 49.12 % Submissions : 100k + Points : 2
 //This problem is part of GFG SDE Sheet.Click here to view more.
 //Given an expression string x.Examine whether the pairs and the orders of “{ “,” }”, ”(“, ”)”, ”[“, ”]” are correct in exp.
