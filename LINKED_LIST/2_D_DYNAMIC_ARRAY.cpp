@@ -4,7 +4,7 @@
 
 #include <iostream>
 using namespace std;
-int main()
+int main() 
 {
 	int row, column;
 	cout << "Enter an row and column : \n ";
