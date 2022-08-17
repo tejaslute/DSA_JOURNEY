@@ -37,7 +37,7 @@ public:
 
     int dequeue() {
         // Implement the dequeue() function
-        if(first==rear){
+        if(first==rear){ // checks for queue is empty or not 
             return -1;
         } else{ 
            int ans = arr[first];
@@ -53,7 +53,7 @@ public:
 
     int front() {
         // Implement the front() function
-        if(rear==first){
+        if(rear==first){ // checks for queue is empty or not 
             return -1;
         } else{
            return arr[first];    
