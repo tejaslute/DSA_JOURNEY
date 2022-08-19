@@ -1,3 +1,7 @@
+/*N = 4, arr[] = [1 3 2 4]
+Output:
+3 4 4 -1*/
+
 vector<long long> nextLargerElement(vector<long long> arr, int n){
        vector<long long>ans;
        stack<long long>s;
