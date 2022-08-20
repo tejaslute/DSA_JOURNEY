@@ -1,22 +1,23 @@
 vector<int>inorder(node*root)
 {
   stack<node*>s;
+  tree*node=root;
   vector<int>v;
   while(true)
   {
-    if(root->left!=NULL)
+    if(node!=NULL)
     {
       s.push(root);
-      root=root->left;
+      node=node->left;
     }
     else
     {
       if(s.empty()==true) break;
       
-      node*temp=s.top();
+      node=s.top();
       s.pop();
-      v.push_back(temp->data);
-      temp=temp->right;
+      v.push_back(node->data);
+      node=node->right;
     }
   }
   return v;
