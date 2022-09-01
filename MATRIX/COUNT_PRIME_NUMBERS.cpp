@@ -1,5 +1,5 @@
 // COUNT_PRIME_NUMBERS.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
 class Solution {
 public:
     int countPrimes(int n) {
