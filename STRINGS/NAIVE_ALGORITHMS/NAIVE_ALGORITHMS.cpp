@@ -1,5 +1,4 @@
-// NAIVE_ALGORITHMS.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// NAIVE_ALGORITHMS.cpp : This file contains the 'main
 #include<string>
 #include <iostream>
 using namespace std;
