@@ -1,4 +1,4 @@
-// AARAY_RIGHT_ROTATION.cpp : This file contains the 'main' function. Program execution begins and ends there.
+/AARAY_RIGHT_ROTATION.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include <iostream>
 using namespace std;
 
